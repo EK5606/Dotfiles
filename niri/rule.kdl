@@ -1,0 +1,16 @@
+window-rule {
+  geometry-corner-radius 20
+  clip-to-geometry true
+  draw-border-with-background false
+}
+
+prefer-no-csd
+
+debug {
+  honor-xdg-activation-with-invalid-serial 
+}
+
+layer-rule {
+  match namespace="^noctalia-overview*"
+  place-within-backdrop true
+}

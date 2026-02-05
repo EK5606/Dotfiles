@@ -1,0 +1,4 @@
+binds {
+  Mod+E { spawn "nautilus"; }
+  Mod+B { spawn "firefox"; }
+}
