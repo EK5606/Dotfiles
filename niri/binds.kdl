@@ -1,4 +1,24 @@
 binds {
-  Mod+E { spawn "nautilus"; }
-  Mod+B { spawn "firefox"; }
+  Mod+H { focus-column-left; }
+  Mod+j { focus-window-down; }
+  Mod+k { focus-window-up; }
+  Mod+l { focus-column-right; }
+  Mod+Ctrl+H     { move-column-left; }
+  Mod+Ctrl+J     { move-window-down; }
+  Mod+Ctrl+K     { move-window-up; }
+  Mod+Ctrl+L     { move-column-right; }
+
+
+
+  Mod+T { spawn "alacritty"; } // 打开终端
+  Mod+E { spawn "nautilus"; } // 打开文件管理器
+  Mod+B { spawn "firefox"; } // 打开浏览器
+  Mod+V { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "clipboard"; }
+
+  Mod+Shift+V { toggle-window-floating; }
+  Mod+Ctrl+V  { switch-focus-between-floating-and-tiling; }
+
+  Mod+F { maximize-column; }
+  Mod+Shift+F { fullscreen-window; }
+  Mod+Ctrl+F { maximize-window-to-edges; }
 }

@@ -1,16 +1,31 @@
-window-rule {
-  geometry-corner-radius 20
-  clip-to-geometry true
-  draw-border-with-background false
-}
 
 prefer-no-csd
 
-debug {
-  honor-xdg-activation-with-invalid-serial 
+window-rule {
+  geometry-corner-radius 16
+  clip-to-geometry true
+  draw-border-with-background false
+  focus-ring
+}
+
+window-rule {
+  match app-id="firefox$"
+  match app-id="zen-browser$"
+  match app-id="chromium$"
+  match app-id="emacs$"
 }
 
 layer-rule {
   match namespace="^noctalia-overview*"
   place-within-backdrop true
 }
+
+debug {
+  honor-xdg-activation-with-invalid-serial 
+}
+
+cursor {
+  // xcursor-theme "breeze_cursors"
+  xcursor-size 24
+}
+

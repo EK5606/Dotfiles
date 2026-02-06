@@ -1,0 +1,23 @@
+layout {
+  gaps {{math scale "*" 2}}
+  struts {
+    left 0
+    right 0
+    top scale
+    bottom 0
+  }
+  focus-ring {
+    width {{math scale "*" 2}}
+  }
+  preset-column-widths {
+    proportion 0.33333
+    proportion 0.5
+    proportion 0.66667
+  }
+  preset-window-heights {
+    proportion 0.33333
+    proportion 0.5
+    proportion 0.66667
+    proportion 0.99999
+  }
+}
