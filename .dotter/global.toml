@@ -8,6 +8,7 @@ default_target_type = "automatic"
 [default]
 [default.files]
 "config/xremap.yml" = "~/.config/xremap/config.yml"
+"config/fonts.conf" = "~/.config/fontconfig/fonts.conf"
 [niri.files]
 "config/niri" = "~/.config/niri/"
 [niri.variables]
