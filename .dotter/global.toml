@@ -14,6 +14,7 @@ default_target_type = "automatic"
 resolution = "1920x1280@60"
 scale = "1.6"
 cursor_theme = "BreezeX-Black"
+cursor_size = "32"
 [terminal]
 [terminal.files]
 "config/yazi" = "~/.config/yazi"

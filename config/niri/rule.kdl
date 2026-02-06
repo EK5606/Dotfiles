@@ -27,6 +27,6 @@ debug {
 
 cursor {
   xcursor-theme "{{cursor_theme}}"
-  xcursor-size 32
+  xcursor-size {{cursor_size}}
 }
 
