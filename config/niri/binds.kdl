@@ -12,7 +12,7 @@ binds {
 
   Mod+T { spawn "alacritty"; } // 打开终端
   Mod+E { spawn "nautilus"; } // 打开文件管理器
-  Mod+B { spawn "firefox"; } // 打开浏览器
+  Mod+B { spawn "zen-browser"; } // 打开浏览器
   Mod+V { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "clipboard"; }
 
   Mod+Shift+V { toggle-window-floating; }

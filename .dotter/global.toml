@@ -5,11 +5,14 @@ default_target_type = "automatic"
 
 
 
-
+[default]
 [default.files]
-"xremap.yml" = "~/.config/xremap/config.yml"
+"config/xremap.yml" = "~/.config/xremap/config.yml"
 [niri.files]
-niri = "~/.config/niri/"
+"config/niri" = "~/.config/niri/"
 [niri.variables]
 resolution = "1920x1280@60"
 scale = "1.6"
+[terminal]
+[terminal.files]
+"config/yazi" = "~/.config/yazi"

@@ -1,0 +1,4 @@
+spawn-at-startup "qs" "-c" "noctalia-shell"
+spawn-at-startup "fcitx5" "-d"
+spawn-at-startup "sparkle"
+spawn-sh-at-startup "xremap --watch ~/.config/xremap/config.yml"

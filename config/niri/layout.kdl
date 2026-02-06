@@ -3,7 +3,7 @@ layout {
   struts {
     left 0
     right 0
-    top scale
+    top {{scale}}
     bottom 0
   }
   focus-ring {
