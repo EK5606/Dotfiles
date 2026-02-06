@@ -23,5 +23,6 @@ cursor_size = "32"
 [terminal.files]
 "config/yazi" = "~/.config/yazi"
 "config/alacritty" = "~/.config/alacritty/"
+"zsh/.zshrc" = "~/.zshrc"
 [terminal.variables]
 font_size = "12"
