@@ -1,0 +1,15 @@
+[helpers]
+
+[settings]
+default_target_type = "automatic"
+
+
+
+
+[default.files]
+"xremap.yml" = "~/.config/xremap/config.yml"
+[niri.files]
+niri = "~/.config/niri/"
+[niri.variables]
+resolution = "1920x1280@60"
+scale = "1.6"
