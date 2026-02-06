@@ -13,6 +13,7 @@ default_target_type = "automatic"
 [niri.variables]
 resolution = "1920x1280@60"
 scale = "1.6"
+cursor_theme = "BreezeX-Black"
 [terminal]
 [terminal.files]
 "config/yazi" = "~/.config/yazi"
