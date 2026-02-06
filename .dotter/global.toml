@@ -24,5 +24,7 @@ cursor_size = "32"
 "config/yazi" = "~/.config/yazi"
 "config/alacritty" = "~/.config/alacritty/"
 "zsh/.zshrc" = "~/.zshrc"
+# "zsh/theme-starship.toml" = "~/.config/starship.toml"
+"zsh/theme-p10k.zsh" = "~/.p10k.zsh"
 [terminal.variables]
 font_size = "12"
