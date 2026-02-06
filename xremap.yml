@@ -1,0 +1,5 @@
+modmap:
+  - name: Global Swap Esc and Caps
+    remap:
+      CapsLock: Esc
+      Esc: CapsLock
