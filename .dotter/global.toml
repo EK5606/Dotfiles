@@ -16,3 +16,6 @@ scale = "1.6"
 [terminal]
 [terminal.files]
 "config/yazi" = "~/.config/yazi"
+"config/alacritty" = "~/.config/alacritty/"
+[terminal.variables]
+font_size = "12"
