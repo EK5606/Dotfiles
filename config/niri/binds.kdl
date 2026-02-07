@@ -10,7 +10,7 @@ binds {
 
 
 
-  Mod+T { spawn "alacritty"; } // 打开终端
+  Mod+T { spawn "konsole"; } // 打开终端
   Mod+E { spawn "dolphin"; } // 打开文件管理器
   Mod+B { spawn "zen-browser"; } // 打开浏览器
   Mod+V { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "clipboard"; }

@@ -9,6 +9,9 @@ default_target_type = "automatic"
 [default.files]
 "config/xremap.yml" = "~/.config/xremap/config.yml"
 "config/fonts.conf" = "~/.config/fontconfig/fonts.conf"
+"config/xdg-desktop-portal/niri-portals.conf" = "~/.config/xdg-desktop-portal/niri-portals.conf"
+"config/qt6ct" = "~/.config/qt6ct"
+
 [niri.files]
 "config/niri" = "~/.config/niri/"
 [niri.variables]
