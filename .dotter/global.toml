@@ -14,8 +14,8 @@ default_target_type = "automatic"
 [niri.variables]
 resolution = "1920x1280@60"
 scale = "1.6"
-cursor_theme = "BreezeX-Black"
-cursor_size = "32"
+cursor_theme = "breeze_cursors"
+cursor_size = "27"
 [nvim]
 [nvim.files]
 "config/nvim" = "~/.config/nvim"
