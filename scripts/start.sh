@@ -42,7 +42,12 @@ install_Fcitx5() {
     fcitx5-rime
   )
   for pkg in "${fcitx5_packages[@]}"; do
-    
+    log_info "正在安装$pkg..."     
+    if pacman -S --noconfirm "$pkg" 2>&1; then
+      log_success "成功安装$pkg"
+    else 
+      log_warning "$pkg安装失败"
+
   done
 }
 
