@@ -1,0 +1,4 @@
+[lazyvim]
+[lazyvim.files]
+"config/lazyvim/" = "~/.config/nvim/lua/plugins/"
+"config/nvim/lua/plugins/im-swtich.lua" = "~/.config/nvim/lua/plugins/im-swtich.lua"

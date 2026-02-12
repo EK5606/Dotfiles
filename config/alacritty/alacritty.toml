@@ -5,5 +5,5 @@ import = ["~/.config/alacritty/themes/noctalia.toml"]
 size = {{font_size}}
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "Sarasa Term SC Nerd"
 style = "Regular"

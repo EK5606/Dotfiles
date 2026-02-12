@@ -5,21 +5,10 @@ return {
 	opts = {
 		dashboard = { enabled = true }, -- 启动界面
 		explorer = { enabled = true }, -- 文件浏览器
+		picker = { enabled = true }, -- 模糊查找器
+		scroll = { enabled = true }, -- 平滑滚动
 		indent = {
 			enabled = true,
-			scope = {
-				enabled = true,
-				-- underline = true, -- 在作用域底部绘制横线
-				hl = {
-					"RainbowRed",
-					"RainbowYellow",
-					"RainbowBlue",
-					"RainbowOrange",
-					"RainbowGreen",
-					"RainbowViolet",
-					"RainbowCyan",
-				},
-			},
 			chunk = {
 				enabled = true,
 				hl = {
@@ -33,7 +22,6 @@ return {
 				},
 			},
 		}, -- 缩进线
-		picker = { enabled = true }, -- 模糊查找器
 	},
 	keys = {
 		{

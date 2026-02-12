@@ -1,8 +1,13 @@
 environment {
+  LANG "zh_CN.UTF-8"
   XDG_MENU_PREFIX "arch-"
-  GTK_THEME "Breeze-Dark:dark"
   QT_QPA_PLATFORM "wayland"
   QT_QPA_PLATFORMTHEME "qt6ct"
   ELECTRON_OZONE_PLATFORM_HINT "auto"
 
+  ######
+  QT_IM_MODULE "fcitx"
+  QT_IM_MODULES "wayland;fcitx;ibus"
+  XMODIFIERS "@im=fcitx"
+  ######
 }

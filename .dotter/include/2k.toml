@@ -1,4 +1,5 @@
 [niri.variables]
+interface = "eDP-1"
 resolution = "2880x1800@90"
 scale = "1.8"
 cursor_theme = "breeze_cursors"

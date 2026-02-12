@@ -1,5 +1,5 @@
 
-prefer-no-csd
+// prefer-no-csd
 
 window-rule {
   geometry-corner-radius 16

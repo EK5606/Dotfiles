@@ -4,17 +4,25 @@
 default_target_type = "automatic"
 
 
-
 [default]
 [default.files]
 "config/xremap.yml" = "~/.config/xremap/config.yml"
 "config/fonts.conf" = "~/.config/fontconfig/fonts.conf"
 "config/xdg-desktop-portal/niri-portals.conf" = "~/.config/xdg-desktop-portal/niri-portals.conf"
 "config/qt6ct" = "~/.config/qt6ct"
-
+"config/gtk-2.0/settings" = "~/.gtkrc-2.0"
+"config/gtk-3.0/settings.ini" = "~/.config/gtk-3.0/settings.ini"
+"config/gtk-4.0/settings.ini" = "~/.config/gtk-4.0/settings.ini"
+"config/user-dirs.dirs" = { target = "~/.config/user-dirs.dirs", type = "template" }
+"config/.xprofile" = "~/.xprofile"
+[default.variables]
+gtk_theme = "Arc"
+# gtk_theme = "Breeze-Dark"
+gtk_icon_theme = "Qogir-Dark"
 [niri.files]
 "config/niri" = "~/.config/niri/"
 [niri.variables]
+interface = "DP-1"
 resolution = "1920x1280@60"
 scale = "1.6"
 cursor_theme = "breeze_cursors"
@@ -26,8 +34,10 @@ cursor_size = "27"
 [terminal.files]
 "config/yazi" = "~/.config/yazi"
 "config/alacritty" = "~/.config/alacritty/"
-"zsh/.zshrc" = "~/.zshrc"
-# "zsh/theme-starship.toml" = "~/.config/starship.toml"
-"zsh/theme-p10k.zsh" = "~/.p10k.zsh"
+"local/konsole-breeze.profile" = "~/.local/share/konsole/breeze.profile"
+"shell/.zshrc" = "~/.zshrc"
+"shell/.bashrc" = "~/.bashrc"
+# "shell/theme-starship.toml" = "~/.config/starship.toml"
+"shell/theme-p10k.zsh" = "~/.p10k.zsh"
 [terminal.variables]
 font_size = "12"

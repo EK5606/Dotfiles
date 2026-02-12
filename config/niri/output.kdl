@@ -1,4 +1,4 @@
-output "DP-1"{
+output "{{interface}}"{
   mode "{{resolution}}"
   scale {{scale}}
   position x=0 y=0

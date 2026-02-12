@@ -1,4 +1,6 @@
 spawn-at-startup "qs" "-c" "noctalia-shell"
 spawn-at-startup "fcitx5" "-d"
-spawn-at-startup "sparkle"
+spawn-at-startup "/opt/sparkle/sparkle"
+spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+// spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
 spawn-sh-at-startup "xremap --watch ~/.config/xremap/config.yml"
