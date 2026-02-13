@@ -191,6 +191,8 @@ install_basic() {
     konsole
     dolphin
     archlinux-xdg-menu
+    speech-dispatcher
+    obs-studio
 
   )
   log_info "更改为英文目录.."
@@ -249,8 +251,12 @@ install_terminal() {
 
 install_game() {
   game_packages=(
+
     steam
     lutris
+    protonplus
+
+    prismlauncher
 
     mangohud
     mangojuice-bin
@@ -263,9 +269,12 @@ install_game() {
 
 install_code() {
   code_packages=(
+    jdk21-openjdk
     npm
     tree-sitter-cli
     visual-studio-code-bin
+    docker
+    docker-compose
   )
 }
 # 主菜单
