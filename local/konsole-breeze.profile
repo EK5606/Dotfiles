@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=Breeze
-Font=Monospace,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Font=Noto Sans Mono CJK SC,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [General]
 Command=/usr/bin/zsh
