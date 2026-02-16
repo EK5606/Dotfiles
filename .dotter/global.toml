@@ -37,7 +37,7 @@ cursor_size = "27"
 "local/konsole-breeze.profile" = "~/.local/share/konsole/breeze.profile"
 "shell/.zshrc" = "~/.zshrc"
 "shell/.bashrc" = "~/.bashrc"
-# "shell/theme-starship.toml" = "~/.config/starship.toml"
 "shell/theme-p10k.zsh" = "~/.p10k.zsh"
+"shell/.vimrc" = "~/.vimrc"
 [terminal.variables]
 font_size = "12"
