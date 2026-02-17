@@ -36,8 +36,13 @@ setopt APPEND_HISTORY
 # 在历史记录中记录命令的执行开始时间和持续时间
 setopt EXTENDED_HISTORY
 # 设置默认编辑器
-export EDITOR="nvim"
-export VISUAL="nvim"
+if command -v nvim &> /dev/null; then
+  export EDITOR="nvim"
+  export VISUAL="nvim"
+else
+  export EDITOR="vim"
+  export VISUAL="vim"
+fi
 
 # eval "$(starship init zsh)"
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme

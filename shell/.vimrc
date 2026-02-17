@@ -1,3 +1,6 @@
+filetype on
+filetype indent on
+filetype plugin on
 "显示行号
 set number
 "显示相对行号
@@ -9,6 +12,10 @@ syntax on
 
 " 开启自动缩进，新的一行会自动与上一行对齐
 set autoindent
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
 " 在输入搜索词时，实时高亮显示匹配项（增量搜索）
 set incsearch
 
