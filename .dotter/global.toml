@@ -25,7 +25,7 @@ gtk_icon_theme = "Qogir-Dark"
 interface = "DP-1"
 resolution = "1920x1280@60"
 scale = "1.6"
-cursor_theme = "breeze_cursors"
+cursor_theme = "Qogir-Light"
 cursor_size = "27"
 [nvim]
 [nvim.files]
