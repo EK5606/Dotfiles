@@ -277,6 +277,37 @@ install_code() {
     docker-compose
   )
 }
+
+install_flatpak() {
+  flatpak_packages=(
+    flatpak
+  )
+
+  for pkg in "${flatpak_packages[@]}"; do
+    log_info "正在安装'$pkg'..."
+    if sudo -u "$CURRENT_USER" yay -Q "$pkg" &>/dev/null; then
+      log_info "$pkg已经安装"
+      continue
+    fi
+    if sudo -u "$CURRENT_USER" yay -S --noconfirm "$pkg" 2>&1; then
+      log_success "成功安装'$pkg'"
+    else
+      log_warning "'$pkg'安装失败"
+      exit 1
+    fi
+  done
+
+  if sudo -u "$CURRENT_USER" flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo 2>&1; then
+    log_success "安装flatpak成功"
+    if flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub 2>&1; then
+      log_success "配置镜像源成功"
+    else
+      log_error "配置镜像源失败"
+    fi
+  else
+    log_error "安装flatpak失败"
+  fi
+}
 # 主菜单
 main_menu() {
   while true; do
@@ -289,6 +320,7 @@ main_menu() {
     echo "5) terminal"
     echo "6) game"
     echo "7) code"
+    echo "8) flatpak"
     read -p "请输入数字进行选择，q退出  " choice
     case "$choice" in
     1)
@@ -317,6 +349,10 @@ main_menu() {
     7)
       log_info "code"
       install_code
+      ;;
+    8)
+      log_info "flatpak"
+      install_flatpak
       ;;
     q)
       log_info "退出安装脚本"
