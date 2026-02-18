@@ -190,9 +190,9 @@ install_basic() {
     font-manager
     konsole
     dolphin
+    kio-admin
     archlinux-xdg-menu
     speech-dispatcher
-    obs-studio
 
   )
   log_info "更改为英文目录.."
@@ -281,6 +281,7 @@ install_code() {
 install_flatpak() {
   flatpak_packages=(
     flatpak
+    obs-studio
   )
 
   for pkg in "${flatpak_packages[@]}"; do

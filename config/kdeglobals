@@ -1,2 +1,5 @@
 [Icons]
 Theme=Qogir-Dark
+
+[KDE]
+ShowDeleteCommand=true

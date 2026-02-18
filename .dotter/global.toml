@@ -41,3 +41,6 @@ cursor_size = "27"
 "shell/.vimrc" = "~/.vimrc"
 [terminal.variables]
 font_size = "12"
+[game]
+[game.files]
+"" = ""
