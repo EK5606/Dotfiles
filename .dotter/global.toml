@@ -43,4 +43,4 @@ cursor_size = "27"
 font_size = "12"
 [game]
 [game.files]
-"" = ""
+# "" = ""
