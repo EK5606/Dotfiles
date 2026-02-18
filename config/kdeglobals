@@ -3,4 +3,4 @@ Theme=Qogir
 
 [KDE]
 ShowDeleteCommand=true
-widgetStyle=breeze
+widgetStyle=qt6ct-style
