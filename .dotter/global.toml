@@ -10,6 +10,7 @@ default_target_type = "automatic"
 "config/fonts.conf" = "~/.config/fontconfig/fonts.conf"
 "config/xdg-desktop-portal/niri-portals.conf" = "~/.config/xdg-desktop-portal/niri-portals.conf"
 "config/qt6ct" = "~/.config/qt6ct"
+"config/kdeglobals" = "~/.config/kdeglobals"
 "config/gtk-2.0/settings" = "~/.gtkrc-2.0"
 "config/gtk-3.0/settings.ini" = "~/.config/gtk-3.0/settings.ini"
 "config/gtk-4.0/settings.ini" = "~/.config/gtk-4.0/settings.ini"
@@ -18,7 +19,7 @@ default_target_type = "automatic"
 [default.variables]
 gtk_theme = "Arc"
 # gtk_theme = "Breeze-Dark"
-gtk_icon_theme = "Qogir-Dark"
+gtk_icon_theme = "Qogir"
 [niri.files]
 "config/niri" = "~/.config/niri/"
 [niri.variables]
