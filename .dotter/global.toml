@@ -9,7 +9,7 @@ default_target_type = "automatic"
 "config/xremap.yml" = "~/.config/xremap/config.yml"
 "config/fonts.conf" = "~/.config/fontconfig/fonts.conf"
 "config/xdg-desktop-portal/niri-portals.conf" = "~/.config/xdg-desktop-portal/niri-portals.conf"
-"config/qt6ct" = { target = "~/.config/qt6ct", type = "template" }
+# "config/qt6ct" = { target = "~/.config/qt6ct", type = "template" }
 "config/kdeglobals" = "~/.config/kdeglobals"
 "config/gtk-2.0/settings" = "~/.gtkrc-2.0"
 "config/gtk-3.0/settings.ini" = "~/.config/gtk-3.0/settings.ini"
