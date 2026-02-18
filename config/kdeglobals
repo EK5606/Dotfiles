@@ -1,5 +1,6 @@
 [Icons]
-Theme=Qogir-Dark
+Theme=Qogir
 
 [KDE]
 ShowDeleteCommand=true
+widgetStyle=qt6ct-style
