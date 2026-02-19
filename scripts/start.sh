@@ -169,7 +169,6 @@ install_niri() {
 install_basic() {
   theme_packages=(
     breeze
-    breeze-gtk
     breeze-icons
     arc-gtk-theme-eos
 
@@ -186,7 +185,6 @@ install_basic() {
     ttf-ms-win11-auto-zh_cn # windows字体
   )
   app_packages=(
-    qt6ct-kde
     font-manager
     konsole
     dolphin
@@ -217,7 +215,7 @@ install_terminal() {
     zsh-syntax-highlighting
     zsh-autosuggestions
     zsh-completions
-    zsh-theme-powerlevel10k
+    zsh-theme-powerlevel10k-git
     autojump
 
     neovim
@@ -225,6 +223,7 @@ install_terminal() {
     btop
     pacseek-bin
     binsider
+    lazygit
   )
   for pkg in "${terminal_packages[@]}"; do
     log_info "正在安装'$pkg'..."
