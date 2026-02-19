@@ -178,8 +178,8 @@ install_basic() {
     noto-fonts-cjk
     noto-fonts-emoji
     noto-fonts-extra
-    ttf-jetbrains-maple-mono-nf-xx-xx # 等宽nerd jetbrains + maple
-    ttf-sarasa-gothic                 # 等宽 更纱
+    ttf-jetbrains-mono-nerd # 等宽nerd jetbrains
+    ttf-maplemono-cn        # 等宽 maple
 
     ttf-nerd-fonts-symbols  #nerd图标字体
     ttf-ms-win11-auto-zh_cn # windows字体
