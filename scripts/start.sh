@@ -216,7 +216,6 @@ install_terminal() {
     zsh-autosuggestions
     zsh-completions
     zsh-theme-powerlevel10k-git
-    autojump
 
     neovim
     lazygit
