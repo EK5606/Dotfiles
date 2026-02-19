@@ -9,6 +9,9 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/autojump/autojump.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# 使用emacs绑定
+bindkey -e
+
 #开启tab上下左右选择补全
 zstyle ':completion:*' menu select
 autoload -Uz compinit
