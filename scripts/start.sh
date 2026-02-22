@@ -178,8 +178,9 @@ install_basic() {
     noto-fonts-cjk
     noto-fonts-emoji
     noto-fonts-extra
+    ttf-lxgw-wenkai         # 霞鹜文楷
     ttf-jetbrains-mono-nerd # 等宽nerd jetbrains
-    ttf-maplemono-cn        # 等宽 maple
+    ttf-maplemono-cn        # 等宽中文 maple
 
     ttf-nerd-fonts-symbols  #nerd图标字体
     ttf-ms-win11-auto-zh_cn # windows字体
@@ -189,6 +190,7 @@ install_basic() {
     nwg-look
     konsole
     dolphin
+    ark
     kio-admin
     archlinux-xdg-menu
     speech-dispatcher
