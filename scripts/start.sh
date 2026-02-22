@@ -186,8 +186,8 @@ install_basic() {
     ttf-ms-win11-auto-zh_cn # windows字体
   )
   app_packages=(
-    font-manager
-    nwg-look
+    font-manager # 字体查看器
+    nwg-look     # gtk主题查看器
     konsole
     dolphin
     ark
@@ -195,6 +195,10 @@ install_basic() {
     archlinux-xdg-menu
     speech-dispatcher
 
+  )
+  office_packages=(
+    typora
+    pandoc
   )
   log_info "更改为英文目录.."
   mv $HOME/桌面 $HOME/Desktop
