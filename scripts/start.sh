@@ -186,6 +186,7 @@ install_basic() {
   )
   app_packages=(
     font-manager
+    nwg-look
     konsole
     dolphin
     kio-admin
