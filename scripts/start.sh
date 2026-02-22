@@ -194,6 +194,7 @@ install_basic() {
     kio-admin
     archlinux-xdg-menu
     speech-dispatcher
+    meld # 文件差异比较
 
   )
   office_packages=(
