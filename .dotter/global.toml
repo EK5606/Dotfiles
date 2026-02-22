@@ -16,6 +16,7 @@ default_target_type = "automatic"
 "config/gtk-4.0/settings.ini" = "~/.config/gtk-4.0/settings.ini"
 "config/user-dirs.dirs" = { target = "~/.config/user-dirs.dirs", type = "template" }
 "config/.xprofile" = "~/.xprofile"
+"config/flags" = "~/.config"
 [default.variables]
 gtk_theme = "Arc"
 # gtk_theme = "Breeze-Dark"
