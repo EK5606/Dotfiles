@@ -194,7 +194,8 @@ install_basic() {
     kio-admin
     archlinux-xdg-menu
     speech-dispatcher
-    meld # 文件差异比较
+    meld               # 文件差异比较
+    linux-wifi-hotspot # linux热点，需要断开当前wifi
 
   )
   office_packages=(
