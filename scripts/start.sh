@@ -171,6 +171,7 @@ install_basic() {
     breeze
     breeze-icons
     arc-gtk-theme-eos
+    nwg-look # gtk主题查看器
 
   )
   font_packages=(
@@ -187,7 +188,6 @@ install_basic() {
   )
   app_packages=(
     font-manager # 字体查看器
-    nwg-look     # gtk主题查看器
     konsole
     dolphin
     ark
@@ -196,6 +196,17 @@ install_basic() {
     speech-dispatcher
     meld               # 文件差异比较
     linux-wifi-hotspot # linux热点，需要断开当前wifi
+    localsend          # 局域网数据传输
+    pacseek            # pacman -Ss
+    upscaler           # 图片超分
+    gearlever          # appimage管理
+    btop               # CLI硬件监控
+    mission-center     # GUI硬件监控
+    wireshark-qt       # 抓包工具
+    easytshark         # 抓包工具
+    xorg-xwininfo      # xwayland窗口信息
+    switcheroo         # 图片格式转换器
+    binsider           # 二进制文件分析器
 
   )
   office_packages=(
@@ -282,6 +293,8 @@ install_code() {
     visual-studio-code-bin
     docker
     docker-compose
+    xmake
+    qtcreator
   )
 }
 
