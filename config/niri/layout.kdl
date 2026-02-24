@@ -1,12 +1,18 @@
 layout {
-  gaps {{math scale "*" 2}}
+  // gaps {{math scale "*" 2}}
+  gaps 0
   struts {
     left 0
     right 0
     top {{scale}}
     bottom 0
   }
+  border {
+    // off
+    width {{math scale "*" 2}}
+  }
   focus-ring {
+    off
     width {{math scale "*" 2}}
   }
   preset-column-widths {
