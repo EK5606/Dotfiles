@@ -9,7 +9,7 @@ layout {
   }
   border {
     // off
-    width {{math scale "*" 2}}
+    width {{math scale "*" 1}}
   }
   focus-ring {
     off
