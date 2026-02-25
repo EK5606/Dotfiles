@@ -117,6 +117,7 @@ install_niri() {
     noctalia-shell
   )
   included_files=(
+    'include "basic.kdl"'
     'include "binds.kdl"'
     'include "input.kdl"'
     'include "output.kdl"'
