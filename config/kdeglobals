@@ -4,3 +4,7 @@ Theme=Qogir
 [KDE]
 ShowDeleteCommand=true
 widgetStyle=breeze
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
