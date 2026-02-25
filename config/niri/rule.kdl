@@ -1,6 +1,8 @@
 
 // prefer-no-csd
 
+workspace "game"
+
 window-rule {
   geometry-corner-radius 16
   clip-to-geometry true
@@ -15,11 +17,22 @@ window-rule {
 
 window-rule {
   match app-id="firefox$"
-  match app-id="zen-browser$"
+  match app-id="zen$"
   match app-id="chromium$"
   match app-id="emacs$"
   open-maximized-to-edges true
 }
+
+window-rule {
+  match title="telegram$"
+
+}
+
+window-rule {
+  match title="Darkest Dungeon"
+  open-on-workspace "game"
+
+} // game
 
 recent-windows {
     binds {
@@ -39,8 +52,5 @@ debug {
   honor-xdg-activation-with-invalid-serial 
 }
 
-cursor {
-  xcursor-theme "{{cursor_theme}}"
-  xcursor-size {{cursor_size}}
-}
+
 
