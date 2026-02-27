@@ -1,7 +1,7 @@
 
 // prefer-no-csd
 
-workspace "game"
+// workspace "game"
 
 window-rule {
   geometry-corner-radius 16
