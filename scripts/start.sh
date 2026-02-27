@@ -208,6 +208,7 @@ install_basic() {
     xorg-xwininfo      # xwayland窗口信息
     switcheroo         # 图片格式转换器
     binsider           # 二进制文件分析器
+    etcher-bin         # 写盘软件
 
   )
   office_packages=(
