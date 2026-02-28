@@ -209,11 +209,20 @@ install_basic() {
     switcheroo         # 图片格式转换器
     binsider           # 二进制文件分析器
     etcher-bin         # 写盘软件
+    freecad            # 建模软件
 
   )
   office_packages=(
     typora
     pandoc
+  )
+  communication_packages=(
+    linuxqq-nt-bwrap
+    wechat
+
+  )
+  media_packages=(
+    mpv
   )
   log_info "更改为英文目录.."
   mv $HOME/桌面 $HOME/Desktop
