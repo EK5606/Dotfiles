@@ -10,6 +10,7 @@ layout {
   border {
     // off
     width {{math scale "*" 1}}
+    active-color   "#7aa2f7"
   }
   focus-ring {
     off
