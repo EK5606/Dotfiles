@@ -17,8 +17,9 @@ default_target_type = "automatic"
 "config/user-dirs.dirs" = { target = "~/.config/user-dirs.dirs", type = "template" }
 "config/.xprofile" = "~/.xprofile"
 "config/flags" = "~/.config"
+"config/dconf/interface.ini" = "~/.config/dconf/interface.ini"
 [default.variables]
-gtk_theme = "Arc"
+gtk_theme = "Arc-Dark"
 # gtk_theme = "Breeze-Dark"
 gtk_icon_theme = "Qogir"
 [niri.files]
