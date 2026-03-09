@@ -184,6 +184,7 @@ install_basic() {
     ttf-lxgw-wenkai         # 霞鹜文楷
     ttf-jetbrains-mono-nerd # 等宽nerd jetbrains
     ttf-maplemono-cn        # 等宽中文 maple
+    ttf-lxgw-wenkai-mono    # 等宽中文 lxgw
 
     ttf-nerd-fonts-symbols  #nerd图标字体
     ttf-ms-win11-auto-zh_cn # windows字体
