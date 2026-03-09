@@ -210,6 +210,8 @@ install_basic() {
     binsider           # 二进制文件分析器
     etcher-bin         # 写盘软件
     freecad            # 建模软件
+    mtpaint            # 图片编辑
+    gwenview           # 图片阅读
 
   )
   office_packages=(
@@ -280,6 +282,8 @@ install_terminal() {
 
 install_game() {
   game_packages=(
+    wine
+    winetricks
 
     steam
     lutris
