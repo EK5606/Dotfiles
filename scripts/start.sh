@@ -172,7 +172,8 @@ install_basic() {
     breeze
     breeze-icons
     arc-gtk-theme-eos
-    nwg-look # gtk主题查看器
+    nwg-look     # gtk主题查看器
+    dconf-editor # gsettings查看器
 
   )
   font_packages=(
