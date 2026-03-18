@@ -214,6 +214,8 @@ install_basic() {
     freecad            # 建模软件
     mtpaint            # 图片编辑
     gwenview           # 图片阅读
+    zenmap             # 扫ip
+    bitcomet           # 比特彗星
 
   )
   office_packages=(
