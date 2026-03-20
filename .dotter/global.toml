@@ -18,6 +18,8 @@ default_target_type = "automatic"
 "config/.xprofile" = "~/.xprofile"
 "config/flags" = "~/.config"
 "config/dconf/interface.ini" = "~/.config/dconf/interface.ini"
+"config/mimeapps.list" = { target = "~/.config/mimeapps.list", type = "template" }
+"config/menus/applications.menu" = { target = "~/.config/menus/applications.menu", type = "template" }
 [default.variables]
 gtk_theme = "Arc-Dark"
 # gtk_theme = "Breeze-Dark"
