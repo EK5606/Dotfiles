@@ -16,23 +16,30 @@ window-rule {
 }
 
 window-rule {
-  match app-id="firefox$"
-  match app-id="zen$"
-  match app-id="chromium$"
-  match app-id="emacs$"
-  match app-id="moonlight$"
+  match app-id="firefox"
+  match app-id="zen"
+  match app-id="chromium"
+  match app-id="emacs"
+  match app-id="moonlight"
   open-maximized-to-edges true
 }
 
 window-rule {
-  match title="telegram$"
+  match app-id="telegram"
 
 }
 
 window-rule {
-  match title="Darkest Dungeon"
-  open-on-workspace "game"
+  match app-id="steam" title="好友列表"
+  default-column-width {proportion 0.33333;}
+}
 
+window-rule {
+  // match title="Darkest Dungeon"
+  match app-id="dontstarve_steam_x64"
+
+  // open-on-workspace "game"
+  open-maximized-to-edges true
 } // game
 
 recent-windows {
