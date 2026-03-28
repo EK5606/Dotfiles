@@ -25,13 +25,19 @@ window-rule {
 }
 
 window-rule {
+  match app-id="zen" title="我的足迹"
+
+  default-column-width { proportion 0.33333; }
+}
+
+window-rule {
   match app-id="telegram"
 
 }
 
 window-rule {
   match app-id="steam" title="好友列表"
-  default-column-width {proportion 0.33333;}
+  default-column-width { proportion 0.33333; }
 }
 
 window-rule {
