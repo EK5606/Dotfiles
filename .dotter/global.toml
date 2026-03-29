@@ -35,14 +35,17 @@ cursor_size = "27"
 [nvim]
 [nvim.files]
 "config/nvim" = "~/.config/nvim"
+[shell]
+[shell.files]
+"shell/.zshrc" = "~/.zshrc"
+"shell/.bashrc" = "~/.bashrc"
+"shell/theme-p10k.zsh" = "~/.p10k.zsh"
+
 [terminal]
 [terminal.files]
 "config/yazi" = "~/.config/yazi"
 "config/alacritty" = "~/.config/alacritty/"
 "local/konsole-breeze.profile" = "~/.local/share/konsole/breeze.profile"
-"shell/.zshrc" = "~/.zshrc"
-"shell/.bashrc" = "~/.bashrc"
-"shell/theme-p10k.zsh" = "~/.p10k.zsh"
 "shell/.vimrc" = "~/.vimrc"
 [terminal.variables]
 font_size = "12"
