@@ -37,7 +37,7 @@ cursor_size = "27"
 "config/nvim" = "~/.config/nvim"
 [shell]
 [shell.files]
-"shell/.zshrc" = "~/.zshrc"
+# "shell/.zshrc" = "~/.zshrc"
 "shell/.bashrc" = "~/.bashrc"
 "shell/theme-p10k.zsh" = "~/.p10k.zsh"
 
