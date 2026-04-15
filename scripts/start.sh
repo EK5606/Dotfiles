@@ -216,7 +216,8 @@ install_basic() {
     gwenview           # 图片阅读
     zenmap             # 扫ip
     bitcomet           # 比特彗星
-
+    motrix-next-bin    # 下载
+    bleachbit          # 文件清理
   )
   office_packages=(
     typora
